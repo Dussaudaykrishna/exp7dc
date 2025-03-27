@@ -26,7 +26,7 @@ def index():
                 grade = "Invalid marks! Enter a value between 0 and 100."
         except ValueError:
             grade = "Please enter a valid number."
-    return render_template("index.html", grade=grade)
+    return render_template("uday.html", grade=grade)
 
 if __name__ == "__main__":  # Corrected from _name_ to __name__
     app.run(debug=True)
